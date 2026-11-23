@@ -67,6 +67,14 @@ de cobertura existe justamente para a aposta ser sempre honesta sobre a chance (
 **Não** é uma ferramenta para recuperar a carteira de outra pessoa, e nem poderia ser: chave
 real é sorteio uniforme de 256 bits.
 
+## Apoie
+
+Trabalho de tempo livre, bancado por mim. O próximo passo grande — a versão GPU — precisa
+de hardware. Se isto te for útil e quiser ajudar, doações em Bitcoin são bem-vindas, sem
+promessa de retorno:
+
+`bc1qhsq406jt6ghkzmhpnqe4r2s639t6mtrhj6zx03`
+
 ## Licença
 
 [MIT](LICENSE) para este launcher. O motor e a GUI têm as licenças próprias deles.

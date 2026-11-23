@@ -68,6 +68,14 @@ coverage readout exists so the bet is always honest about its (astronomically sm
 This is **not** a tool to recover someone else's wallet, and it cannot be: real keys are
 full 256-bit uniform draws.
 
+## Support
+
+Self-funded, spare-time work. The next big step — a GPU port — needs hardware. If this is
+useful to you and you'd like to help, Bitcoin donations are welcome, with no promise of
+anything in return:
+
+`bc1qhsq406jt6ghkzmhpnqe4r2s639t6mtrhj6zx03`
+
 ## License
 
 [MIT](LICENSE) for this launcher. The engine and the GUI carry their own licenses.
