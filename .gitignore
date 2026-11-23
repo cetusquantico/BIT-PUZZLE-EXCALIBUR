@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.venv/
+.eggs/
+# never version key material or engine artifacts a run may drop in the cwd
+*.ckpt
+found*.txt
+achado*.txt
+*.wif
+*.key
+*.json.lock

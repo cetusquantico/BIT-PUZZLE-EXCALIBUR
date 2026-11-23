@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bit-puzzle-excalibur"
+version = "0.1.0"
+description = "GUI frontend for the EXCALIBUR Bitcoin-puzzle volante engine (drives exlottery)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "cetusquantico" }]
+keywords = ["bitcoin", "puzzle", "secp256k1", "gui", "tkinter"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: X11 Applications",
+    "Intended Audience :: Science/Research",
+]
+dependencies = []   # stdlib + tkinter only; the engine is located at runtime
+
+[project.scripts]
+bit-puzzle-excalibur = "bit_puzzle_excalibur.launcher:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
